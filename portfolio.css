@@ -1,0 +1,63 @@
+/* background color of the page
+text color
+separate styling for headers (h1,h2) and paragraphs (p)
+borders around elements or above and below elements */
+
+/*
+* {
+    background-color: beige;
+} */
+p {
+  margin: 3% 3%;
+}
+img {
+    height: 400px;
+    width: 295px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3 !important;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #ddd;
+}
+nav li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+nav li {
+    border-right: 1px solid #bbb;
+}
+h1 {
+    text-align: center;
+}
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1;
+ margin: 0 3%;
+}
+
+article {
+  flex: 4;
+  margin: 0 4%;
+}
