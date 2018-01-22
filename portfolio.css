@@ -1,14 +1,5 @@
-/* background color of the page
-text color
-separate styling for headers (h1,h2) and paragraphs (p)
-borders around elements or above and below elements */
-
-/*
-* {
-    background-color: beige;
-} */
 p {
-  margin: 3% 3%;
+  margin: 2% 2%;
 }
 img {
     height: 400px;
@@ -47,6 +38,7 @@ nav li {
 }
 h1 {
     text-align: center;
+    font-style: italic;
 }
 section {
  display: flex;
@@ -58,6 +50,8 @@ aside {
 }
 
 article {
+  font-family: 'Bad Script', cursive;
+  font-size: 1.2rem;
   flex: 4;
-  margin: 0 4%;
+  margin: 0 3%;
 }
